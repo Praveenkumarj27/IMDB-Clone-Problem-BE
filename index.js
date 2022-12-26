@@ -44,7 +44,7 @@ app.get("/", function (req, res) {
     const qs1 = "s=" + searchItem;
     get_request_results_page(host, qs1, res);
   } else {
-    res.json("Show search Page");
+    res.json("Server running successfully");
   }
 });
 
